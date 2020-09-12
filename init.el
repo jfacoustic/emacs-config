@@ -36,7 +36,7 @@
 (mapcar (lambda (hook)
 	  (message "Adding rainbow delimiters mode to: %s" hook)
 	  (add-hook hook #'rainbow-delimiters-mode))
-	(list #'scheme-mode-hook #'emacs-lisp-mode-hook))
+	(list #'scheme-mode-hook #'emacs-lisp-mode-hook #'lisp-mode-hook))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
